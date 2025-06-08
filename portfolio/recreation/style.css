@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    color: rgb(41, 188, 237);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    border: 2px solid black;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.middle1{
+    flex: 1;
+    display: flex;
+    align-items: center;      
+    justify-content: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.middle1 h1{
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+}
+
+.middle2 h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 55px;
+    background-color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.button{
+    padding-left: 55px;
+    padding-top: 20px;
+    border-spacing: 20px 20px;
+}
+
+.button button{
+    background-color: black;
+    color: rgb(41, 188, 237);
+    border-radius: 32px;
+    border-color: rgb(41, 188, 237);
+    height: 65px;
+    width: 170px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    padding-top: 20px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+.navdiv {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navdiv li {
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+.logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.navbutton{
+    background-color: black;
+    color: rgb(253, 254, 255);
+    border-radius: 32px;
+    border-color: rgb(254, 255, 255);
+    height: 45px;
+    width: 120px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.button button:hover{
+    background-color: white;
+    color: white;
+}
+
+.navbutton:hover{
+    background-color: white;
+}
